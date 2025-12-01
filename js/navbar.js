@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <div class="navbar">
     <div class="logo"><img src="img/logo.png" alt=""></div>
     <ul class="links">
-      <li><a href="Index.html">Inicio</a></li>
+      <li><a href="index.html">Inicio</a></li>
       <li><a href="Polos.html">Polos</a></li>
       <li><a href="Pantalones.html">Pantalones</a></li>
       <li><a href="Accesorios.html">Accesorios</a></li>
