@@ -7,15 +7,15 @@ document.addEventListener("DOMContentLoaded", () => {
   <div class="navbar">
     <div class="logo"><img src="/img/logo.png" alt=""></div>
     <ul class="links">
-      <li><a href="/Index.html">Inicio</a></li>
-      <li><a href="/Polos.html">Polos</a></li>
-      <li><a href="/Pantalones.html">Pantalones</a></li>
-      <li><a href="/Accesorios.html">Accesorios</a></li>
+      <li><a href="Index.html">Inicio</a></li>
+      <li><a href="Polos.html">Polos</a></li>
+      <li><a href="Pantalones.html">Pantalones</a></li>
+      <li><a href="Accesorios.html">Accesorios</a></li>
     </ul>
     <div class="right_menu">
       <a href="#" class="search"><i class="fa-solid fa-magnifying-glass"></i></a>
       <input type="text" id="search_input" placeholder="Buscar..." style="display:none;">
-      <a href="/Login.html" class="user"><i class="fa-solid fa-user"></i></a>
+      <a href="Login.html" class="user"><i class="fa-solid fa-user"></i></a>
     </div>
   </div>
 `;
