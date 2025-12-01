@@ -4,7 +4,7 @@ var productos = [
     {
         nombre: "Reloj de Pulsera Clásico",
         precio: 120,
-        img: "../../img/accesorios/accs1.jpeg"
+        img: "../img/accesorios/accs1.jpeg"
     },
     {
         nombre: "Bufanda a Cuadros",
