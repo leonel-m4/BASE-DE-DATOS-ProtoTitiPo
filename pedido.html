@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finalizar Pedido</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+
+    <header class="header" id="header"></header>
+
+    <div class="pedido-container">
+        <h2>Finalizar Pedido</h2>
+        <div id="resumen-pedido" class="resumen-pedido">
+        </div>
+
+        <div class="total-pedido" id="total-pedido"
+            style="text-align:right; margin-bottom: 18px; font-weight:700; font-size:18px; color:#ff4382;">
+            Total: S/. <span id="total-valor">0.00</span>
+        </div>
+
+        <form id="form-pedido">
+
+            <h3>Datos del Cliente</h3>
+
+            <input type="text" id="nombre" class="input-pedido" placeholder="Nombre completo" required>
+            <input type="text" id="direccion" class="input-pedido" placeholder="Dirección completa" required>
+            <input type="text" id="telefono" class="input-pedido" placeholder="Teléfono" required>
+
+            <h3>Método de Entrega</h3>
+            <select id="entrega" class="select-pedido" required>
+                <option value="delivery">Delivery</option>
+                <option value="tienda">Recojo en tienda</option>
+            </select>
+
+            <h3>Método de Pago</h3>
+            <select id="pago" class="select-pedido" required>
+                <option value="yape">Yape / Plin</option>
+                <option value="contra">Pago contra entrega</option>
+                <option value="tarjeta">Tarjeta (online)</option>
+            </select>
+
+            <button type="submit" class="btn-confirmar">CONFIRMAR PEDIDO</button>
+        </form>
+
+        <div id="mensaje-final" class="mensaje-final" style="display:none;">
+            <h2>¡Pedido enviado! 🎉</h2>
+            <p>Nos comunicaremos contigo para completar la compra.</p>
+        </div>
+    </div>
+
+    <section class="contact" id="contact"></section>
+
+    <footer class="end_text" id="end_text">
+    </footer>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/pedido.js"></script>
+    <script src="https://kit.fontawesome.com/08fe8eb936.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto - Polos</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+
+    <header class="header" id="header"></header>
+
+    <div class="producto-container">
+
+        <div class="producto-imagen">
+            <img id="productoImagen" src="" alt="Producto" width="260">
+        </div>
+
+        <div class="producto-info">
+
+            <h2 id="productoTitulo" class="producto-titulo"></h2>
+
+            <p id="productoPrecio" class="producto-precio"></p>
+
+            <form class="producto-form">
+
+                <div class="campo">
+                    <label>Color:</label><br>
+                    <select class="select-color" id="productoColores"></select>
+                </div>
+
+                <div class="campo">
+                    <label>Cantidad:</label><br>
+                    <input type="number" class="input-cantidad" min="1" value="1">
+                </div>
+
+                <div class="campo">
+                    <label>Talla:</label><br>
+                    <div class="tallas" id="productoTallas"></div>
+                </div>
+
+                <button type="button" class="btn-agregar">AGREGAR AL CARRITO</button>
+
+            </form>
+
+            <div class="producto-descripcion">
+                <h3>Descripción</h3>
+                <ul id="productoDescripcion"></ul>
+            </div>
+
+            <div class="producto-devoluciones">
+                <h3>Cambios y Devoluciones</h3>
+                <p>Se aceptan cambios dentro de 30 días con el producto sin uso.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="contact" id="contact"></section>
+
+    <div class="end_text" id="end_text"></div>
+
+    <script src="/js/carrito.js"></script>
+    <script src="/js/agregarProducto.js"></script>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/DetallePolos.js"></script> <!-- ESTO ES NUEVO -->
+    <script src="https://kit.fontawesome.com/08fe8eb936.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
