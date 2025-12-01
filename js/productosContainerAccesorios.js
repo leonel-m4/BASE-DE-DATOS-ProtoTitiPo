@@ -4,7 +4,7 @@ var productos = [
     {
         nombre: "Reloj de Pulsera Clásico",
         precio: 120,
-        img: "../img/accesorios/accs1.jpeg"
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/accesorios/accs1.jpeg"
     },
     {
         nombre: "Bufanda a Cuadros",
