@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (headerEl) {
     headerEl.innerHTML = `
   <div class="navbar">
-    <div class="logo"><img src="/img/logo.png" alt=""></div>
+    <div class="logo"><img src="img/logo.png" alt=""></div>
     <ul class="links">
       <li><a href="Index.html">Inicio</a></li>
       <li><a href="Polos.html">Polos</a></li>
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     contactEl.innerHTML = `
       <div class="contact_info">
         <div class="firts_info">
-          <img src="/img/logo.png" alt="">
+          <img src="img/logo.png" alt="">
           <p>Sector D MZ.D LT. 31 <br> Urb. Los Angeles de Vitarte</p>
           <p>+51 916 796 360</p>
           <p>luis.maldonado@tecsup.edu.pe</p>
