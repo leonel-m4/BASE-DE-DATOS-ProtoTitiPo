@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // BASE DE DATOS DE PANTALONES
     var productos = [
     {
         nombre: "Polo Oversize Blanco",
@@ -13,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         nombre: "Polo Urban Black",
         precio: 45,
-        img: "/img/polos/polo2.jpeg",
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo2.jpeg",
         colores: ["Negro"],
         tallas: ["S", "M", "L"],
         descripcion: ["Diseño urbano", "Tela suave", "Duradero"]
@@ -21,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         nombre: "Polo Street Plateado",
         precio: 60,
-        img: "/img/polos/polo3.jpeg",
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo3.jpeg",
         colores: ["Plateado", "Plateado oscuro"],
         tallas: ["S", "M", "L"],
         descripcion: ["Estilo moderno", "Comodidad total", "Secado rápido"]
@@ -29,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         nombre: "Polo Classic",
         precio: 85,
-        img: "/img/polos/polo4.jpeg",
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo4.jpeg",
         colores: ["Negro","Blanco"],
         tallas: ["S", "M", "L", "XL"],
         descripcion: ["Diseño clásico", "Cuello reforzado", "Premium"]
@@ -37,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         nombre: "Polo Minimalista",
         precio: 30,
-        img: "/img/polos/polo5.jpeg",
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo5.jpeg",
         colores: ["Blanco", "Beige"],
         tallas: ["S", "M", "L"],
         descripcion: ["Minimalista", "Ligero", "Transpirable"]
@@ -45,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         nombre: "Polo Neon Wave",
         precio: 15,
-        img: "/img/polos/polo6.jpeg",
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo6.jpeg",
         colores: ["Verde Neón","Azul Neón"],
         tallas: ["S", "M"],
         descripcion: ["Color llamativo", "Streetwear", "Tela suave"]
@@ -53,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         nombre: "Polo Skull Edition",
         precio: 95,
-        img: "/img/polos/polo7.jpeg",
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo7.jpeg",
         colores: ["Blnco","Negro"],
         tallas: ["M", "L", "XL"],
         descripcion: ["Edición especial", "Estampado Skull", "Alta calidad"]
@@ -61,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         nombre: "Polo Gold Style",
         precio: 70,
-        img: "/img/polos/polo8.jpeg",
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo8.jpeg",
         colores: ["Dorado", "Dorado oscuro"],
         tallas: ["S", "M", "L"],
         descripcion: ["Detalles dorados", "Elegante", "Tela premium"]
@@ -92,7 +91,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Tallas
    document.getElementById("productoTallas").innerHTML =
     producto.tallas.map(t => `<button type="button" class="talla">${t}</button>`).join("");
-
 
     // Descripción
     document.getElementById("productoDescripcion").innerHTML =
