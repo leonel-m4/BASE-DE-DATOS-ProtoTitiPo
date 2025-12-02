@@ -50,7 +50,7 @@ contenedor.innerHTML = "";
 productos.forEach((p, i) => {
     contenedor.innerHTML += `
         <div class="row">
-            <a href="https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/products/productoPolos.html?id=${i}">
+            <a href="products/productoPolos.html?id=${i}">
                 <img src="${p.img}" alt="">
             </a>
             <div class="product_text">
