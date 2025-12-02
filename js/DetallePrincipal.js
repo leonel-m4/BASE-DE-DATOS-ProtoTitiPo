@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // BASE DE DATOS DE PANTALONES
-   var productos = [
+    var productos = [
         {
             nombre: "Polo Neon Wave",
             precio: 15,
-            img: "/img/polos/polo6.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo6.jpeg",
             colores: ["Verde Neón", "Azul Neón"],
             tallas: ["S", "M"],
             descripcion: ["Color llamativo", "Streetwear", "Tela suave"]
@@ -13,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Chino Tapered Fit",
             precio: 135,
-            img: "/img/pantalones/pant7.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant7.jpeg",
             colores: ["Beige", "Negro"],
             tallas: ["S", "M", "L", "XL"],
             descripcion: ["Chino moderno", "Corte tapered", "Ligero"]
@@ -21,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Polo Oversize Blanco",
             precio: 90,
-            img: "/img/polos/polo1.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo1.jpeg",
             colores: ["Blanco", "Negro"],
             tallas: ["S", "M", "L", "XL"],
             descripcion: ["100% algodón", "Oversize", "Tela fresca"]
@@ -29,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Mom Jeans",
             precio: 120,
-            img: "/img/pantalones/pant1.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant1.jpeg",
             colores: ["Azul", "Celeste", "Plomo"],
             tallas: ["S", "M", "L", "XL"],
             descripcion: ["Tiro alto clásico", "Corte recto", "Material denim grueso"]
@@ -37,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Polo Urban Black",
             precio: 45,
-            img: "/img/polos/polo2.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/polos/polo2.jpeg",
             colores: ["Negro"],
             tallas: ["S", "M", "L"],
             descripcion: ["Diseño urbano", "Tela suave", "Duradero"]
@@ -45,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Palazzo",
             precio: 70,
-            img: "/img/pantalones/pant2.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant2.jpeg",
             colores: ["Mostaza", "Beige"],
             tallas: ["S", "M", "L"],
             descripcion: ["Tela ligera", "Cintura elástica", "Ideal para verano"]
@@ -53,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Flare",
             precio: 65,
-            img: "/img/pantalones/pant6.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant6.jpeg",
             colores: ["Negro", "Azul"],
             tallas: ["S", "M", "L"],
             descripcion: ["Pierna acampanada", "Retro", "Tela suave"]
@@ -61,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Cargo",
             precio: 110,
-            img: "/img/pantalones/pant4.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant4.jpeg",
             colores: ["Plomo", "Negro"],
             tallas: ["S", "M", "L"],
             descripcion: ["Bolsillos laterales", "Duradero", "Corte recto"]
@@ -92,7 +91,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Tallas
     document.getElementById("productoTallas").innerHTML =
         producto.tallas.map(t => `<button type="button" class="talla">${t}</button>`).join("");
-
 
     // Descripción
     document.getElementById("productoDescripcion").innerHTML =
