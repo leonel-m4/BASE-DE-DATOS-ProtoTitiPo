@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         nombre: "Polo Oversize Blanco",
         precio: 90,
-        img: "img/polos/polo1.jpeg",
+        img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/products/img/polos/polo1.jpeg",
         colores: ["Blanco", "Negro"],
         tallas: ["S", "M", "L", "XL"],
         descripcion: ["100% algodón", "Oversize", "Tela fresca"]
