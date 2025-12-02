@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // BASE DE DATOS DE PANTALONES
     var productos = [
         {
             nombre: "Pantalón Mom Jeans",
             precio: 120,
-            img: "/img/pantalones/pant1.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant1.jpeg",
             colores: ["Azul", "Celeste", "Plomo"],
             tallas: ["S", "M", "L", "XL"],
             descripcion: ["Tiro alto clásico", "Corte recto", "Material denim grueso"]
@@ -13,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Palazzo",
             precio: 70,
-            img: "/img/pantalones/pant2.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant2.jpeg",
             colores: ["Mostaza", "Beige"],
             tallas: ["S", "M", "L"],
             descripcion: ["Tela ligera", "Cintura elástica", "Ideal para verano"]
@@ -21,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Skinny Fit",
             precio: 85,
-            img: "/img/pantalones/pant3.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant3.jpeg",
             colores: ["Negro", "Azul"],
             tallas: ["S", "M", "L", "XL"],
             descripcion: ["Ajustado al cuerpo", "Tela stretch", "Estilo moderno"]
@@ -29,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Cargo",
             precio: 110,
-            img: "/img/pantalones/pant4.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant4.jpeg",
             colores: ["Plomo", "Negro"],
             tallas: ["S", "M", "L"],
             descripcion: ["Bolsillos laterales", "Duradero", "Corte recto"]
@@ -37,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Straight Leg",
             precio: 75,
-            img: "/img/pantalones/pant5.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant5.jpeg",
             colores: ["Beige", "Plomo"],
             tallas: ["S", "M", "L"],
             descripcion: ["Corte clásico", "Cómodo", "Looks casuales"]
@@ -45,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Flare",
             precio: 65,
-            img: "/img/pantalones/pant6.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant6.jpeg",
             colores: ["Negro", "Azul"],
             tallas: ["S", "M", "L"],
             descripcion: ["Pierna acampanada", "Retro", "Tela suave"]
@@ -53,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Chino Tapered Fit",
             precio: 135,
-            img: "/img/pantalones/pant7.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant7.jpeg",
             colores: ["Beige", "Negro"],
             tallas: ["S", "M", "L", "XL"],
             descripcion: ["Chino moderno", "Corte tapered", "Ligero"]
@@ -61,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Pantalón Paperbag",
             precio: 95,
-            img: "/img/pantalones/pant8.jpeg",
+            img: "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/img/pantalones/pant8.jpeg",
             colores: ["Plomo", "Azul"],
             tallas: ["S", "M", "L"],
             descripcion: ["Cintura alta", "Ajuste cómodo", "Estilo urbano"]
