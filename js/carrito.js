@@ -80,7 +80,7 @@ document.addEventListener("click", (e) => {
             return;
         }
 
-        window.location.href = "pedido.html";
+        window.location.href = "https://leonel-m4.github.io/BASE-DE-DATOS-ProtoTitiPo/pedido.html";
     }
 });
 
